@@ -1,6 +1,5 @@
 package org.linker.strategy;
 
-import org.linker.foun.utils.CollectionUtils;
 import org.linker.strategy.region.CalPrice;
 
 import java.io.File;
@@ -27,7 +26,7 @@ public class CalPriceFactory {
     }
 
     private static List<Class<? extends CalPrice>> calPriceList;// 策略列表
-    private static final String CAL_PRICE_PACKAGE = "org.org.linker.strategy.region";// 扫描策略的包名
+    private static final String CAL_PRICE_PACKAGE = "org.linker.strategy.region";// 扫描策略的包名
     private ClassLoader classLoader = getClass().getClassLoader();
 
 
@@ -51,7 +50,7 @@ public class CalPriceFactory {
     // 处理注解，我们传入一个策略类，返回它的注解
     private PriceRegion handleAnnotation(Class<? extends CalPrice> clazz) {
         Annotation[] annotations = clazz.getDeclaredAnnotations();
-        if (CollectionUtils.isNullOrEmpty(annotations)) {
+        if (annotations == null || annotations.length == 0) {
             return null;
         }
         for (Annotation annotation : annotations) {
