@@ -1,6 +1,6 @@
-package org.linker.strategy;
+package org.linker._02_strategy;
 
-import org.linker.strategy.region.CalPrice;
+import org.linker._02_strategy.region.CalPrice;
 
 import java.io.File;
 import java.lang.annotation.Annotation;
@@ -26,7 +26,7 @@ public class CalPriceFactory {
     }
 
     private static List<Class<? extends CalPrice>> calPriceList;// 策略列表
-    private static final String CAL_PRICE_PACKAGE = "org.linker.strategy.region";// 扫描策略的包名
+    private static final String CAL_PRICE_PACKAGE = "org.linker._02_strategy.region";// 扫描策略的包名
     private ClassLoader classLoader = getClass().getClassLoader();
 
 

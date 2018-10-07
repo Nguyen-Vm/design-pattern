@@ -1,6 +1,6 @@
-package org.linker.strategy.region;
+package org.linker._02_strategy.region;
 
-import org.linker.strategy.PriceRegion;
+import org.linker._02_strategy.PriceRegion;
 
 /**
  * @author RWM

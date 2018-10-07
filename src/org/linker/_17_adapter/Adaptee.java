@@ -1,4 +1,4 @@
-package org.linker.adapter;
+package org.linker._17_adapter;
 
 /**
  * @author RWM

@@ -1,4 +1,4 @@
-package org.linker.strategy;
+package org.linker._02_strategy;
 
 /**
  * @author RWM

@@ -1,4 +1,4 @@
-package org.linker.proxy;
+package org.linker._07_proxy;
 
 import java.lang.reflect.Proxy;
 

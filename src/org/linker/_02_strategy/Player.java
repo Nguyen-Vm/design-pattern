@@ -1,7 +1,7 @@
-package org.linker.strategy;
+package org.linker._02_strategy;
 
-import org.linker.strategy.region.CalPrice;
-import org.linker.strategy.region.Origin;
+import org.linker._02_strategy.region.CalPrice;
+import org.linker._02_strategy.region.Origin;
 
 /**
  * @author RWM

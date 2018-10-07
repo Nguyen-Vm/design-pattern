@@ -1,4 +1,4 @@
-package org.linker.strategy;
+package org.linker._02_strategy;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

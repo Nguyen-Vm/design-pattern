@@ -1,4 +1,4 @@
-package org.linker.adapter;
+package org.linker._17_adapter;
 
 public interface Target {
 

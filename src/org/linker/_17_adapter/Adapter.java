@@ -1,4 +1,4 @@
-package org.linker.adapter;
+package org.linker._17_adapter;
 
 /**
  * @author RWM
@@ -8,6 +8,6 @@ public class Adapter extends Adaptee implements Target {
 
     @Override
     public void sampleOperation2() {
-        System.out.println("adapter -> sampleOperation2");
+        System.out.println("_17_adapter -> sampleOperation2");
     }
 }
