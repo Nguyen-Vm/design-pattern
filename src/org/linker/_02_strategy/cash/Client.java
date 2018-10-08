@@ -7,7 +7,7 @@ import java.util.List;
  * @author RWM
  * @date 2018/10/7
  */
-public class Main {
+public class Client {
     private static double total = 0.0d;
 
     /**

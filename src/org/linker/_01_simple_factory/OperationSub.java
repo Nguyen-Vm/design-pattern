@@ -1,4 +1,4 @@
-package org.linker._01_factory;
+package org.linker._01_simple_factory;
 
 /**
  * @author RWM

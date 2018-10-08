@@ -4,7 +4,7 @@ package org.linker._06_decorator;
  * @author RWM
  * @date 2018/10/8
  */
-public class Main {
+public class Client {
     public static void main(String[] args) {
         Person xc = new Person("小菜");
 

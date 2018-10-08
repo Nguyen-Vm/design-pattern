@@ -1,10 +1,10 @@
-package org.linker._01_factory;
+package org.linker._01_simple_factory;
 
 /**
  * @author RWM
  * @date 2018/10/7
  */
-public class Main {
+public class Client {
     public static void main(String[] args) throws Exception {
         Operation operation = OperationFactory.createOperation("/");
         operation.numberA = 1;
