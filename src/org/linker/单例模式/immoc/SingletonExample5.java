@@ -1,4 +1,4 @@
-package org.linker.单例模式;
+package org.linker.单例模式.immoc;
 
 /**
  * @author RWM
