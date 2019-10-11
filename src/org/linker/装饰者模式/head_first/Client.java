@@ -4,7 +4,7 @@ package org.linker.装饰者模式.head_first;
  * @author RWM
  * @date 2018/11/2
  */
-public class CLient {
+public class Client {
     public static void main(String[] args) {
         Beverage espresso = new Espresso();
         System.out.println(espresso.getDescription() + " ￥" + espresso.cost());
