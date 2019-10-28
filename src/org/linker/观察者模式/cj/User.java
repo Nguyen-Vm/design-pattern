@@ -12,7 +12,7 @@ public class User implements Observer {
     public User(Subject subject, String name) {
         this.subject = subject;
         this.name = name;
-        subject.registerObserver(this);
+        this.subject.registerObserver(this);
     }
 
     @Override
